@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    border-radius: 5px;
+    width: 600px;
+    overflow: hidden;
+    height: 200px;
+}
+.item {
+    flex: 1;
+    transition: flex 0.5s ease;
+    cursor: pointer;
+  }
+
+  .item:first-child {
+    background: red;
+  }
+  .item:nth-child(2) {
+    background: green;
+  }
+  .item:nth-child(3) {
+    background: pink;
+  }
+  .item:nth-child(4) {
+    background: blue;
+  }
+  .item:hover {
+    flex: 3;
+  }
+  
+
